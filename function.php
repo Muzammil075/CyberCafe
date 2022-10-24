@@ -40,7 +40,7 @@ class DB_con
     {
         $result = mysqli_query(
             $this->dbh,
-            "select id,FullName from tblcustomers where Username='$uname'"
+            "select id,FullName from tblcustomers where Username='$uname' and password = '$pasword'"
         );
         return $result;
     }
