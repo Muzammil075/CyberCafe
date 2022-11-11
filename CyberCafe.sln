@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberCafe", "CyberCafe\CyberCafe.csproj", "{869C3381-2ACD-4A57-B001-2089065B2BF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{869C3381-2ACD-4A57-B001-2089065B2BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869C3381-2ACD-4A57-B001-2089065B2BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869C3381-2ACD-4A57-B001-2089065B2BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869C3381-2ACD-4A57-B001-2089065B2BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16113D70-C772-4FDC-A7B6-15A97D744FBF}
+	EndGlobalSection
+EndGlobal
