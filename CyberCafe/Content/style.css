@@ -1,0 +1,38 @@
+::selection{
+    color: #fff;
+    background: #5065fe;
+}
+.container .login-form form p{
+    font-size: 12px;
+}
+html,body{
+    background: #5065fe;
+    font-family: 'Poppins', arial;
+	background-image: url("background.jpg");
+}
+.container{
+    position: absolute;
+    left: 50%;
+	top: 50%;
+    transform: translate(-50%, -50%);
+}
+.container .form form .form-control{
+    height: 37px;
+    font-size: 14px;
+}
+.container .row .alert{
+    font-size: 10px;
+}
+.container .form{
+    background: #fff;
+    border-radius: 5px;
+	padding: 30px 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.container .form form .button{
+    background: #5065fe;
+    color: #fff;
+	font-weight: 500;
+    font-size: 17px;
+}
