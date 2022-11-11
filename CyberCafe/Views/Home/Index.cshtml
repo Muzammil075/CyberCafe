@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" style="text-align:center">
+    <p>
+        <h2>OUR SERVICES</h2>
+    </p>
+</div>
+<div><br /></div>
+<div class="row" style="background-color: burlywood;">
+     <div class="col-md-4" style="text-align:center">
+         <p>
+             <br />
+             <img src="~/Images/1.jpg" width="200" height="200" />
+             <br />
+         </p>
+     </div>
+     <div class="col-md-8"><div style="padding: 40px;"><a href="@Url.Action("SelectPC","Home",new {Amt = "10",Task="Game Playing"})"><h3>Hourly 10$ Game Playing</h3></a></div></div>
+</div>
+<div><br /></div>
+<div class="row" style="background-color: burlywood;"> 
+     <div class="col-md-4" style="text-align:center">
+         <p>
+             <br />
+             <img src="~/Images/2.jpg" width="200" height="200" />
+             <br />
+         </p>
+     </div>
+     <div class="col-md-8"><div style="padding: 40px;"><a href="@Url.Action("SelectPC","Home",new {Amt = "5",Task="Web Surfing"})"><h3>Hourly 5$  Web Surfing</h3></a></div></div>
+</div>
+<div><br /></div>
+<div class="row" style="background-color: burlywood;">
+     <div class="col-md-4" style="text-align:center">
+         <p>
+             <br />
+             <img src="~/Images/4.jpg" width="200" height="200" />
+             <br />
+         </p>
+     </div>
+     <div class="col-md-8"><div style="padding: 40px;"><a href="@Url.Action("SelectPC","Home",new {Amt = "12",Task="Game + Web Surfing"})"><h3>Hourly 12$ Game + Web Surfing</h3></a></div></div>
+</div>

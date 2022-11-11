@@ -1,0 +1,175 @@
+﻿
+@{
+    ViewBag.Title = "SelectPC";
+}
+
+
+@{
+    ViewBag.Title = "Reserve";
+}
+<link href="~/Content/jquery-ui.css" rel="stylesheet" />
+
+<div class="row SelectPC">
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h3>Service :  <label id="lblService">@TempData["Service"]</label></h3>
+        <br />
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h3>
+            PC no. :  <select name="txtPC" id="txtPC">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </h3>
+        <br />
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h3>
+            Charges/Hour :  <label id="lblAmt">@TempData["Amt"]</label>$
+        </h3>
+        <br />
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h3>
+            Hour :  <select name="txtHour" id="txtHour">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </h3>
+        <br />
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <input class="btn btn-light" type="button" value="PROCEED" id="btnProceed" width="70" style="background-color:blue" />
+        <br />
+        <br />
+    </div>
+</div>
+<div class="row Payment" style="display:none">
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h3>Service :  <label id="lblServices"></label></h3>
+        <br />
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h3>
+            PC no. :  <label id="lblPCNo"></label>
+        </h3>
+        <br />
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h3>
+            Total Amount :  <label id="lblTotAmt"></label>
+        </h3>
+        <br />
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h2>
+            Pament Mode :
+            <select name="txtPayMode" id="txtPayMode">
+                <option value="UPI">UPI</option>
+                <option value="Credit Card">Credit Card</option>
+                <option value="Debit Card">Debit Card</option>
+                <option value="Internet Banking">Internet Banking</option>
+            </select>
+        </h2>
+        <br />
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <input class="btn btn-light" type="button" value="PROCEED PAYMENT" id="btnProceedPay" width="70" style="background-color:blue" />
+        <br />
+        <br />
+    </div>
+</div>
+<div class="row ProceedPay" style="display:none">
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h2><label id="lblProceedPay" /></h2>
+        <br />
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.13.2.min.js"></script>
+    <script type="text/javascript">
+        $("#btnProceed").click(function () {
+            var obj = {};
+            obj.Service = $('#lblService').text();
+            obj.PCNo = $('#txtPC').val();
+            obj.Amt = $('#lblAmt').text();
+            obj.TotalHour = $('#txtHour').val();
+            $.ajax({
+                url: "/Home/Proceed",
+                method: "post",
+                data: '{obj: ' + JSON.stringify(obj) + '}',
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    if (obj.status == "Failed") {
+                        $('.SelectPC').hide();
+                        $('.Payment').hide();
+                        $('.ProceedPay').show();
+                        $("#lblProceedPay").text(response.status);
+                    }
+                    else {
+                        $('.SelectPC').hide();
+                        $('.Payment').show();
+                        $('.ProceedPay').hide();
+                        $("#lblServices").text(response.Service);
+                        $("#lblPCNo").text(response.PCNo);
+                        $("#lblTotAmt").text(response.Amt);
+                    }
+                },
+                error: function (response) {
+                    alert("Error while Log in the Application");
+                }
+            });
+        });
+
+        $("#btnProceedPay").click(function () {
+            var obj = {};
+            obj.Service = $("#lblServices").text();
+            obj.PCNo = $("#lblPCNo").text();
+            obj.Amt = $("#lblTotAmt").text();
+            obj.PayMode = $("#txtPayMode").val();
+            $.ajax({
+                url: "/Home/ProceedPay",
+                method: "post",
+                data: '{obj: ' + JSON.stringify(obj) + '}',
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    $('.SelectPC').hide();
+                    $('.Payment').hide();
+                    $('.ProceedPay').show();
+                    $("#lblProceedPay").text(response.status);
+                },
+                error: function (response) {
+                    alert("Error while Log in the Application");
+                }
+            });
+        });
+    </script>
+}
+
+
+
+
