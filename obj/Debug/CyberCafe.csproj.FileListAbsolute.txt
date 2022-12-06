@@ -1,0 +1,202 @@
+E:\Projects\CyberCafe\CyberCafe\bin\CyberCafe.dll.config
+E:\Projects\CyberCafe\CyberCafe\bin\CyberCafe.dll
+E:\Projects\CyberCafe\CyberCafe\bin\CyberCafe.pdb
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\csc.exe
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\csc.exe.config
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\csc.rsp
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\csi.exe
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\csi.exe.config
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\csi.rsp
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.AppContext.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Collections.Immutable.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Console.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Globalization.Calendars.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.IO.Compression.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.IO.FileSystem.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Net.Http.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Net.Sockets.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Reflection.Metadata.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.ValueTuple.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Xml.XPath.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\vbc.exe
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\vbc.exe.config
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\vbc.rsp
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\VBCSCompiler.exe
+E:\Projects\CyberCafe\CyberCafe\bin\roslyn\VBCSCompiler.exe.config
+E:\Projects\CyberCafe\CyberCafe\bin\Antlr3.Runtime.dll
+E:\Projects\CyberCafe\CyberCafe\bin\BouncyCastle.Crypto.dll
+E:\Projects\CyberCafe\CyberCafe\bin\Google.Protobuf.dll
+E:\Projects\CyberCafe\CyberCafe\bin\K4os.Compression.LZ4.dll
+E:\Projects\CyberCafe\CyberCafe\bin\K4os.Compression.LZ4.Streams.dll
+E:\Projects\CyberCafe\CyberCafe\bin\K4os.Hash.xxHash.dll
+E:\Projects\CyberCafe\CyberCafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Projects\CyberCafe\CyberCafe\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\CyberCafe\CyberCafe\bin\MySql.Data.dll
+E:\Projects\CyberCafe\CyberCafe\bin\Newtonsoft.Json.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Buffers.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Memory.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Numerics.Vectors.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.Helpers.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.Mvc.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.Optimization.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.Razor.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.WebPages.Deployment.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.WebPages.dll
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.WebPages.Razor.dll
+E:\Projects\CyberCafe\CyberCafe\bin\WebGrease.dll
+E:\Projects\CyberCafe\CyberCafe\bin\ZstdNet.dll
+E:\Projects\CyberCafe\CyberCafe\bin\BouncyCastle.Crypto.xml
+E:\Projects\CyberCafe\CyberCafe\bin\Google.Protobuf.pdb
+E:\Projects\CyberCafe\CyberCafe\bin\Google.Protobuf.xml
+E:\Projects\CyberCafe\CyberCafe\bin\K4os.Compression.LZ4.xml
+E:\Projects\CyberCafe\CyberCafe\bin\K4os.Compression.LZ4.Streams.xml
+E:\Projects\CyberCafe\CyberCafe\bin\K4os.Hash.xxHash.xml
+E:\Projects\CyberCafe\CyberCafe\bin\MySql.Data.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Buffers.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Memory.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Numerics.Vectors.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.Helpers.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.Mvc.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.Optimization.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.Razor.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.WebPages.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.WebPages.Deployment.xml
+E:\Projects\CyberCafe\CyberCafe\bin\System.Web.WebPages.Razor.xml
+E:\Projects\CyberCafe\CyberCafe\bin\Newtonsoft.Json.xml
+E:\Projects\CyberCafe\CyberCafe\bin\Antlr3.Runtime.pdb
+E:\Projects\CyberCafe\CyberCafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Projects\CyberCafe\CyberCafe\obj\Debug\CyberCafe.csproj.AssemblyReference.cache
+E:\Projects\CyberCafe\CyberCafe\obj\Debug\CyberCafe.csproj.CoreCompileInputs.cache
+E:\Projects\CyberCafe\CyberCafe\obj\Debug\CyberCafe.csproj.CopyComplete
+E:\Projects\CyberCafe\CyberCafe\obj\Debug\CyberCafe.dll
+E:\Projects\CyberCafe\CyberCafe\obj\Debug\CyberCafe.pdb
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\CyberCafe.dll.config
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\CyberCafe.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\CyberCafe.pdb
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\csc.exe
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\csc.exe.config
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\csc.rsp
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\csi.exe
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\csi.exe.config
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\csi.rsp
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.AppContext.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Console.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.IO.Compression.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Net.Http.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Net.Sockets.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.ValueTuple.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\vbc.exe
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\vbc.exe.config
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\vbc.rsp
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\VBCSCompiler.exe
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Antlr3.Runtime.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\BouncyCastle.Crypto.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Google.Protobuf.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\K4os.Compression.LZ4.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\K4os.Hash.xxHash.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\MySql.Data.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Newtonsoft.Json.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Buffers.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Memory.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Numerics.Vectors.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.Helpers.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.Mvc.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.Optimization.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.Razor.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.WebPages.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.WebPages.Razor.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\WebGrease.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\ZstdNet.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\BouncyCastle.Crypto.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Google.Protobuf.pdb
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Google.Protobuf.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\K4os.Compression.LZ4.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\K4os.Hash.xxHash.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\MySql.Data.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Buffers.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Memory.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Numerics.Vectors.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.Helpers.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.Mvc.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.Optimization.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.Razor.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.WebPages.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\System.Web.WebPages.Razor.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Newtonsoft.Json.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Antlr3.Runtime.pdb
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\obj\Debug\CyberCafe.csproj.AssemblyReference.cache
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\obj\Debug\CyberCafe.csproj.CoreCompileInputs.cache
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\obj\Debug\CyberCafe.csproj.CopyComplete
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\obj\Debug\CyberCafe.dll
+C:\Users\akram\Downloads\@Final CyberCafe\CyberCafe\CyberCafe\CyberCafe\obj\Debug\CyberCafe.pdb
