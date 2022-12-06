@@ -1,0 +1,68 @@
+﻿@model CyberCafe.Models.RegistrationDetails
+@{
+    Layout = null;
+    ViewBag.Title = "UserRegistration";
+    if (ViewBag.Message != null)
+    {
+        <span style="text-align:center; font-size:25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@ViewBag.Message</span>
+    }
+}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Page</title>
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <style type="text/css">
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body style="background-color: burlywood;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 form">
+                @using (Html.BeginForm("UserRegistration", "Home", FormMethod.Post))
+                {
+                <form>
+                    <h2 class="text-center">Customer Registration</h2>
+                    <div class="form-group">
+                        @Html.TextBoxFor(a => a.name, new { @placeholder = "Full Name", @class = "form-control" })
+                        @Html.ValidationMessageFor(a => a.name, "", new { @class = "error" })
+                    </div>
+                    <div class="form-group">
+                        @Html.TextBoxFor(a => a.Username, new { @placeholder = "User Name", @class = "form-control" })
+                        @Html.ValidationMessageFor(a => a.Username, "", new { @class = "error" })
+                    </div>
+                    <div class="form-group">
+                        @Html.TextBoxFor(a => a.email, new { @placeholder = "E-mail", @class = "form-control" })
+                        @Html.ValidationMessageFor(a => a.email, "", new { @class = "error" })
+                    </div>
+                    <div class="form-group">
+                        @Html.PasswordFor(a => a.Password, new { @placeholder = "Password", @class = "form-control" })
+                        @Html.ValidationMessageFor(a => a.Password, "", new { @class = "error" })
+                    </div>
+                    <div class="form-group">
+                        @Html.PasswordFor(a => a.cpassword, new { @placeholder = "Confirm Password", @class = "form-control" })
+                        @Html.ValidationMessageFor(a => a.cpassword, "", new { @class = "error" })
+                    </div>
+                    <div class="form-group">
+                        <select name="Role" id="Role" class = "form-control">
+                            <option value="User">User</option>
+                            <option value="Owner">Owner</option> 
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input class="btn btn-success" type="submit" name="signup" value="Register">
+                    </div>
+                </form>
+                    <div class="link login-link text-center"> 
+                        @Html.ActionLink("Signin Here", "Login", "Home")
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>

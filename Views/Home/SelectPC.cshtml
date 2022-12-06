@@ -1,0 +1,284 @@
+﻿@{
+    ViewBag.Title = "SelectPC";
+}
+
+
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+
+<div class="SelectPC">
+    <br />
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2" style="text-align: center">
+            <h5>Service</h5>
+        </div>
+        <div class="col-sm-1">:</div>
+        <div class="col-sm-3" style="text-align:left">
+            <h5><label id="lblService">@TempData["Service"]</label></h5>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2" style="text-align: center">
+            <h5>Booking Date</h5>
+        </div>
+        <div class="col-sm-1">:</div>
+        <div class="col-sm-3" style="text-align:left">
+            <h5><input type="text" name="txtDate" id="txtDate" class="datepicker" style="width:225px;"></h5>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2" style="text-align: center">
+            <h5>
+                PC no.
+            </h5>
+        </div>
+        <div class="col-sm-1">:</div>
+        <div class="col-sm-3" style="text-align:left">
+            <h5>
+                <select name="txtPC" id="txtPC" style="width:225px;"> 
+                    @*<option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>*@
+                </select>
+            </h5>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2" style="text-align: center">
+            <h5>
+                Charges/Hour
+            </h5>
+        </div>
+        <div class="col-sm-1">:</div>
+        <div class="col-sm-3" style="text-align:left">
+            <h5>
+                <label id="lblAmt">@TempData["Amt"]</label>$
+            </h5>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-2" style="text-align: center">
+            <h5>
+                Hour
+            </h5>
+        </div>
+        <div class="col-sm-1">:</div>
+        <div class="col-sm-3" style="text-align:left">
+            <h5>
+                <select name="txtHour" id="txtHour" style="width:225px;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </h5>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        @*<input class="btn btn-light" type="button" value="PROCEED" id="btnProceed" width="70" style="background-color:blue" />*@
+        <button type="button" style="background-color: #d1d0f9; width: 200px;" id="btnProceed"><span>PROCEED</span></button>
+        <button type="button" style="background-color: #d1d0f9; width: 200px;" onclick="location.href='@Url.Action("ServiceData","Home")'"><span>Back</span></button>
+        <br />
+        <br />
+    </div>
+</div>
+<div class="Payment" style="display:none">
+    <br />
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2" style="text-align: center">
+            <h5> Service </h5>
+        </div>
+        <div class="col-sm-1">:</div>
+        <div class="col-sm-3" style="text-align:left">
+            <h5>
+                <label id="lblServices"></label>
+            </h5>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2" style="text-align: center">
+            <h5>
+                PC no.
+            </h5>
+        </div>
+        <div class="col-sm-1">:</div>
+        <div class="col-sm-3" style="text-align:left">
+            <h5>
+                <label id="lblPCNo"></label>
+            </h5>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2" style="text-align: center">
+            <h5>
+                Total Amount
+            </h5>
+        </div>
+        <div class="col-sm-1">:</div>
+        <div class="col-sm-3" style="text-align:left">
+            <h5>
+                <label id="lblTotAmt"></label>
+            </h5>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2" style="text-align: center">
+            <h5>
+                Pament Mode
+            </h5>
+        </div>
+        <div class="col-sm-1">:</div>
+        <div class="col-sm-3" style="text-align:left">
+            <h5>
+                <select name="txtPayMode" id="txtPayMode">
+                    <option value="UPI">UPI</option>
+                    <option value="Credit Card">Credit Card</option>
+                    <option value="Debit Card">Debit Card</option>
+                    <option value="Internet Banking">Internet Banking</option>
+                </select>
+            </h5>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        @*<input class="btn btn-light" type="button" value="PROCEED PAYMENT" id="btnProceedPay" width="70" style="background-color:blue" />*@
+        <button type="button" style="background-color: #d1d0f9; width: 200px;" id="btnProceedPay"><span>PROCEED PAYMENT</span></button>
+        <button type="button" style="background-color: #d1d0f9; width: 200px;" onclick="location.href='@Url.Action("ServiceData","Home")'"><span>Back</span></button>
+        <br />
+        <br />
+    </div>
+</div>
+<div class="ProceedPay" style="display:none">
+    <br />
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h2><label id="lblProceedPay" /></h2>
+        <br />
+        <button type="button" style="background-color: #d1d0f9; width: 200px;" onclick="location.href='@Url.Action("ServiceData","Home")'"><span>Back</span></button>
+        <br />
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.13.2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#txtDate").datepicker({ dateFormat: 'dd/mm/yy' });
+        });
+
+        $("#txtDate").change(function () {
+            var obj = {};
+            obj.ServiceDate = $('#txtDate').val();
+            $.ajax({
+                url: "/Home/AvailablePC",
+                method: "post",
+                data: '{obj: ' + JSON.stringify(obj) + '}',
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    $("#txtPC").empty(); 
+                    for (var i = 0; i < data.length; i++) { 
+                        var opt = '<option value=' + data[i].id + '>' + data[i].SystemNo + '</option>';
+                        $("#txtPC").append(opt);
+                    }
+                },
+                error: function (response) {
+                    alert("Error while Log in the Application");
+                }
+            });
+        }); 
+
+        $("#btnProceed").click(function () {
+            if ($('#txtDate').val()=='') {
+                alert("Booking Date Should Not be Blank.");
+                return;
+            }
+            var obj = {};
+            obj.Service = $('#lblService').text();
+            obj.ServiceDate = $('#txtDate').val();
+            obj.PCNo = $('#txtPC').val();
+            obj.Amt = $('#lblAmt').text();
+            obj.TotalHour = $('#txtHour').val();
+            $.ajax({
+                url: "/Home/Proceed",
+                method: "post",
+                data: '{obj: ' + JSON.stringify(obj) + '}',
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    if (obj.status == "Failed") {
+                        $('.SelectPC').hide();
+                        $('.Payment').hide();
+                        $('.ProceedPay').show();
+                        $("#lblProceedPay").text(response.status);
+                    }
+                    else {
+                        $('.SelectPC').hide();
+                        $('.Payment').show();
+                        $('.ProceedPay').hide();
+                        $("#lblServices").text(response.Service);
+                        $("#lblPCNo").text(response.PCNo);
+                        $("#lblTotAmt").text(response.Amt);
+                    }
+                },
+                error: function (response) {
+                    alert("Error while Log in the Application");
+                }
+            });
+        });
+
+        $("#btnProceedPay").click(function () {
+            var obj = {};
+            obj.Service = $("#lblServices").text();
+            obj.PCNo = $("#lblPCNo").text();
+            obj.Amt = $("#lblTotAmt").text();
+            obj.PayMode = $("#txtPayMode").val();
+            $.ajax({
+                url: "/Home/ProceedPay",
+                method: "post",
+                data: '{obj: ' + JSON.stringify(obj) + '}',
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    $('.SelectPC').hide();
+                    $('.Payment').hide();
+                    $('.ProceedPay').show();
+                    $("#lblProceedPay").text(response.status);
+                },
+                error: function (response) {
+                    alert("Error while Log in the Application");
+                }
+            });
+        });
+    </script>
+}
+
+
+
+

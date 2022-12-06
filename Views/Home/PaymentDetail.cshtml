@@ -1,0 +1,126 @@
+﻿@model CyberCafe.Models.ServiceDetail
+@using System.Data
+@{
+    ViewBag.Title = "PaymentDetail";
+}
+
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+<div class="Payment">
+    @foreach (DataRow row in Model.dt.Rows)
+    {
+        <br />
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2" style="text-align: center">
+                <h5> Service </h5>
+            </div>
+            <div class="col-sm-1">:</div>
+            <div class="col-sm-3" style="text-align:left">
+                <h5>
+                    <label id="lblServices">@row["Service"]</label>
+                </h5>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2" style="text-align: center">
+                <h5>
+                    PC no.
+                </h5>
+            </div>
+            <div class="col-sm-1">:</div>
+            <div class="col-sm-3" style="text-align:left">
+                <h5>
+                    <label id="lblPCNo">@row["PCNo"]</label>
+                </h5>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2" style="text-align: center">
+                <h5>
+                    Total Amount
+                </h5>
+            </div>
+            <div class="col-sm-1">:</div>
+            <div class="col-sm-3" style="text-align:left">
+                <h5>
+                    <label id="lblTotAmt">@row["TotAmt"]</label>
+                </h5>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2" style="text-align: center">
+                <h5>
+                    Payment Mode
+                </h5>
+            </div>
+            <div class="col-sm-1">:</div>
+            <div class="col-sm-3" style="text-align:left">
+                <h5>
+                    <select name="txtPayMode" id="txtPayMode">
+                        <option value="UPI">UPI</option>
+                        <option value="Cash">Cash</option>
+                        <option value="Credit Card">Credit Card</option>
+                        <option value="Debit Card">Debit Card</option>
+                        <option value="Internet Banking">Internet Banking</option>
+                    </select>
+                </h5>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="col-md-12" style="text-align:center">
+            <br />
+            @*<input class="btn btn-light" type="button" value="PROCEED PAYMENT" id="btnProceedPay" width="70" style="background-color:blue" />*@
+            <button type="button" style="background-color: #d1d0f9; width: 200px;" id="btnProceedPay"><span>PROCEED PAYMENT</span></button>
+            <button type="button" style="background-color: #d1d0f9; width: 200px;" onclick="location.href='@Url.Action("ServiceData","Home")'"><span>Back</span></button>
+            <br />
+            <br />
+        </div>
+    }
+</div>
+<div class="ProceedPay" style="display:none">
+    <br />
+    <div class="col-md-12" style="text-align:center">
+        <br />
+        <h2><label id="lblProceedPay" /></h2>
+        <br />
+        <button type="button" style="background-color: #d1d0f9; width: 200px;" onclick="location.href='@Url.Action("ServiceData","Home")'"><span>Back</span></button>
+        <br />
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.13.2.min.js"></script>
+    <script type="text/javascript">
+        $("#btnProceedPay").click(function () {
+            var obj = {};
+            obj.Service = $("#lblServices").text();
+            obj.PCNo = $("#lblPCNo").text();
+            obj.Amt = $("#lblTotAmt").text();
+            obj.PayMode = $("#txtPayMode").val();
+            $.ajax({
+                url: "/Home/ProceedPay",
+                method: "post",
+                data: '{obj: ' + JSON.stringify(obj) + '}',
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    $('.SelectPC').hide();
+                    $('.Payment').hide();
+                    $('.ProceedPay').show();
+                    $("#lblProceedPay").text(response.status);
+                },
+                error: function (response) {
+                    alert("Error while Log in the Application");
+                }
+            });
+        });
+    </script>
+}
